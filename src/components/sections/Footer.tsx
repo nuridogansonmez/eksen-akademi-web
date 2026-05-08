@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { AtSign, Phone, MapPin } from "lucide-react";
 
 export const Footer = () => {
@@ -10,8 +11,8 @@ export const Footer = () => {
           {/* Brand */}
           <div>
             <div className="mb-4 flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#FFB800]">
-                <span className="text-sm font-black text-[#1B3A6B]">EA</span>
+              <div className="flex h-10 w-10 overflow-hidden rounded-xl">
+                <Image src="/logo.png" alt="Eksen Akademi Logo" width={40} height={40} className="object-cover" />
               </div>
               <div>
                 <div className="text-base font-black text-white leading-none">EKSEN</div>

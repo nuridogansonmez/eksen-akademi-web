@@ -17,6 +17,14 @@ export const metadata: Metadata = {
   title: "Eksen Akademi | LGS'ye Özel Butik Kurs — Bahçeşehir",
   description:
     "LGS'ye özel butik kurs anlayışıyla, küçük sınıflar ve bireysel ilgiyle Bahçeşehir'in en tercih edilen eğitim merkezi. 5, 6, 7 ve 8. sınıf programları.",
+  icons: {
+    icon: [
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/logo.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+    shortcut: "/favicon-32.png",
+  },
 };
 
 export default function RootLayout({

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { ArrowRight, Menu } from "lucide-react";
 import { useRef, useState } from "react";
@@ -80,8 +81,8 @@ export const PrismaHero = () => {
             transition={{ duration: 0.6 }}
             className="flex items-center gap-3"
           >
-            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#FFB800] shadow-lg">
-              <span className="text-sm font-black text-[#1B3A6B]">EA</span>
+            <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl shadow-lg">
+              <Image src="/logo.png" alt="Eksen Akademi Logo" width={44} height={44} className="object-cover" />
             </div>
             <div>
               <div className="text-base font-black text-white leading-none">EKSEN</div>
