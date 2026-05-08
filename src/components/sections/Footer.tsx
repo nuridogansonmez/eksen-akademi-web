@@ -75,7 +75,7 @@ export const Footer = () => {
         </div>
 
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 md:flex-row">
-          <p className="text-xs text-white/30">© 2025 Eksen Akademi. Tüm hakları saklıdır.</p>
+          <p className="text-xs text-white/30">© 2026 Eksen Akademi. Tüm hakları saklıdır.</p>
           <a
             href="https://www.pusulart.com/"
             target="_blank"
