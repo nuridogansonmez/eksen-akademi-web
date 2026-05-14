@@ -32,7 +32,7 @@ const contactItems = [
   {
     icon: Clock,
     label: "Çalışma Saatleri",
-    value: "Pzt–Cmt: 09:00 – 21:00",
+    value: "Pzt–Cmt: 12:00 – 20:00",
     href: null,
   },
 ];

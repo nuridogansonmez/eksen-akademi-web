@@ -37,7 +37,6 @@ export const WordsPullUp = ({ text, className = "", style }: WordsPullUpProps) =
 const navItems = [
   { label: "Hakkımızda", href: "#hakkimizda" },
   { label: "Programlar", href: "#programlar" },
-  { label: "Sanat Sınıfı", href: "#sanat" },
   { label: "Süreç", href: "#surec" },
   { label: "Başarılar", href: "#basarilar" },
   { label: "İletişim", href: "#iletisim" },

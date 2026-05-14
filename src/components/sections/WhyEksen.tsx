@@ -8,7 +8,7 @@ const features = [
   {
     icon: Users,
     title: "Küçük Sınıflar",
-    desc: "Maksimum 8-10 kişilik sınıflarla her öğrenciye bireysel ilgi. Kalabalıkta kaybolmayan bir eğitim.",
+    desc: "Maksimum 6-8 kişilik sınıflarla her öğrenciye bireysel ilgi. Kalabalıkta kaybolmayan bir eğitim.",
   },
   {
     icon: Target,
